@@ -64,7 +64,7 @@
             {
               "id" : 1,
               "on_back_close" : true,
-              "title" : "Pocket TV App",
+              "title" : "Pocket IPTV App",
               "description" : "Total Entertainment",
               "banner_image" : "https://www.bannerbatterien.com/upload/filecache/Banner-Batterien-Windrder2-web_bd5cb0f721881d106522f6b9cc8f5be6.jpg",
               "logo_image" : "https://brandmark.io/logo-rank/random/bp.png",
@@ -101,8 +101,8 @@
             }
           }
         },
-        "is_banner_ads": true,
-        "is_interstitial_ads": true,
+        "is_banner_ads": false,
+        "is_interstitial_ads": false,
         "is_stream_player_banner_ads": false,
         "startapp_ads": {
           "ads_app_id": "201571398",
@@ -120,19 +120,19 @@
         "is_override" : false,
 
         "is_popup_dialog": false,
-        "is_update_require":true,
+        "is_update_require":false,
 
         "package_id":"com.instantbits.cast.webvideo",
         "download_url":"https://github.com/rutumaster/Pocket-TV/raw/Final-Apps/COMMON/APKS/ChromeCast.apk",
         "website_url":"https://play.google.com/store/apps/details?id=com.instantbits.cast.webvideo",
         "is_system_browser":true,
 
-        "updated_version_code":2,
+        "updated_version_code":1,
 
-        "filename":"TV_Staring.apk",
+        "filename":"Pocket_IPTV.apk",
         "title":"App Update",
         "default_message":"Your App is Up to date.",
-        "log_message":"- Bug Fixing.\n- Chrome Cast Support\n- Remove Ads Support\n- Other Player Support",
+        "log_message":"",
         "downloading_message":"App Downloading",
         "installing_message":"App Install"
       },
@@ -141,11 +141,11 @@
       {
         "is_override": false,
         "class_name" : "com.purchase.core.MainActivity",
-        "purchase_package_id" : "com.purchase.core",
-        "purchase_package_id1" : "com.tvstaring.abc",
+        "purchase_package_id1" : "com.purchase.core",
+        "purchase_package_id" : "com.pocketiptv",
         "download_url" : "https://raw.githubusercontent.com/rutumaster/Pocket-TV/Final-Apps/All-In-One_Purcahse/APK/All%20In%20One%20Purchase.apk",
-        "filename" : "PURCHASE.apk",
-        "purchase_title": "Purchase App",
+        "filename" : "Purchase_Core.apk",
+        "purchase_title": "Purchase Core",
         "purchase_message": "If you want to purchase then you have to install Purchase App.\nand then try again to purchase from here once again.",
         "website_url" : "",
         "is_system_browser":true,
@@ -159,15 +159,15 @@
       {
         "is_override" : false,
         "is_webview_player_support": true,
-        "is_other_player_support":true,
+        "is_other_player_support":false,
         "is_inapp_other_player_support":false,
 
-        "is_cast_support":true,
+        "is_cast_support":false,
         "is_inapp_cast_support":false,
 
         "is_remove_ads_support":false,
 
-        "is_purchase_restore_support":true
+        "is_purchase_restore_support":false
       },
 
       "Other_Player_Support":
@@ -176,7 +176,7 @@
         "other_player_title": "Other Player Support",
 
         "inapp_other_player_sku" : "com.pockettv.otherplayeroption",
-        "inapp_other_player_message": "If you want to play video on you favorite video player.\n\nThen you should purchase this service.\n\nYou will get player chooser while you try to play any video or channel from Pocket TV.",
+        "inapp_other_player_message": "If you want to play video on you favorite video player.\n\nThen you should purchase this service.\n\nYou will get player chooser while you try to play any video or channel from Pocket IPTV.",
 
         "other_player_banner_url": "https://raw.githubusercontent.com/rutumaster/Pocket-TV/Final-Apps/COMMON/Images-PocketTV/Other/Player-select.jpg?alt=media&token=42a59563-69ca-4048-81de-96d82fb952b0",
 
@@ -193,11 +193,11 @@
         "cast_package_name": "com.instantbits.cast.webvideo",
 
         "inapp_cast_sku" : "com.pockettv.chromecast",
-        "inapp_cast_message": "If you want to play video on you TV.<br><br>Then you should purchase this service.<br><br>You will get chromecast support from Pocket TV.",
+        "inapp_cast_message": "If you want to play video on you TV.<br><br>Then you should purchase this service.<br><br>You will get chromecast support from Pocket IPTV.",
 
         "cast_banner_url": "https://www.hyperlinkinfosystem.com/assets/uploads/banner/1479248554.png",
 
-        "initial_cast_message": "Do you need Chromecast support then follow below steps :<br><br>(1). Press \"SETUP\" button.<br>(2). If It will ask for permission please allow.<br>(3). It will open download dialog and please wait till download completion.<br>(4). After you can see \"INSTALL\" button, press \"INSTALL\" button.<br>(5). After It will popup for installation screen and then \"INSTALL\" it.<br>(6). After installation complete press \"DONE\" button.<br>(7). Come back to Pocket TV and you will see your plugin activated.<br>(9). If you can't setup then : <a href='https://github.com/rutumaster/Pocket-TV/raw/Final-Apps/COMMON/APKS/ChromeCast.apk'>DOWNLOAD HERE</a><br><br>",
+        "initial_cast_message": "Do you need Chromecast support then follow below steps :<br><br>(1). Press \"SETUP\" button.<br>(2). If It will ask for permission please allow.<br>(3). It will open download dialog and please wait till download completion.<br>(4). After you can see \"INSTALL\" button, press \"INSTALL\" button.<br>(5). After It will popup for installation screen and then \"INSTALL\" it.<br>(6). After installation complete press \"DONE\" button.<br>(7). Come back to Pocket IPTV and you will see your plugin activated.<br>(9). If you can't setup then : <a href='https://github.com/rutumaster/Pocket-TV/raw/Final-Apps/COMMON/APKS/ChromeCast.apk'>DOWNLOAD HERE</a><br><br>",
         "success_cast_message": "Now You can Chromecast Your Video From Player.",
 
         "download_url": "https://github.com/rutumaster/Pocket-TV/raw/Final-Apps/COMMON/APKS/ChromeCast.apk",
@@ -218,7 +218,7 @@
 
         "remove_ads_banner_url": "https://ads-blocker.com/wp-content/uploads/2015/02/ads-blocker-logo.png",
 
-        "success_remove_ads_message": "Congratulations!\nNow Pocket TV is ADS FREE."
+        "success_remove_ads_message": "Congratulations!\nNow Pocket IPTV is ADS FREE."
       },
 
       "Purchase_Restore_Support":
@@ -236,15 +236,15 @@
         "is_disclaimer_app" : true,
         "is_force_approved": true,
         "disclaimer_title": "Disclaimer",
-        "disclaimer_message": "Pocket TV does not warrant the completeness, timeliness or accuracy of any of the data contained in this app and may make changes thereto at any time in its sole discretion without notice. Further, all information conveyed hereby is provided to users “AS IS”. In no event shall Pocket TV be liable for any damages of any kind related to the use or misuse of Information provided hereby.\nWe do not host any link or streams. If you found any copyrighted channel, please write us in feedback with appropriate link host for its removal."
+        "disclaimer_message": "Pocket IPTV doesn't contain any built-in channels. you need to have playlist with TV channels in order to this app. it just IPTV player which manage all channels and playlist in well manner."
       },
 
       "About_App":
       {
         "is_override" : false,
-        "is_about_app" : true,
+        "is_about_app" : false,
         "about_title": "About",
-        "about_message": "Pocket TV does not warrant the completeness, timeliness or accuracy of any of the data contained in this app and may make changes thereto at any time in its sole discretion without notice. Further, all information conveyed hereby is provided to users “AS IS”. In no event shall Pocket TV be liable for any damages of any kind related to the use or misuse of Information provided hereby.\nWe do not host any link or streams. If you found any copyrighted channel, please write us in feedback with appropriate link host for its removal."
+        "about_message": "Pocket IPTV does not warrant the completeness, timeliness or accuracy of any of the data contained in this app and may make changes thereto at any time in its sole discretion without notice. Further, all information conveyed hereby is provided to users “AS IS”. In no event shall Pocket IPTV be liable for any damages of any kind related to the use or misuse of Information provided hereby.\nWe do not host any link or streams. If you found any copyrighted channel, please write us in feedback with appropriate link host for its removal."
       },
 
       "Exit_Dialog":
@@ -257,18 +257,18 @@
       "Rate_App":
       {
         "is_override" : false,
-        "is_rate_app" : true,
+        "is_rate_app" : false,
         "package_id" : "com.android.chrome",
-        "rate_app_url" : "http://www.google.com",
+        "rate_app_url" : "https://www.google.com",
         "rate_message" : "Please Rate us and promote us."
       },
 
       "More_Apps":
       {
         "is_override" : false,
-        "is_more_app" : true,
-        "developer_id" : "Pocket+TV",
-        "more_app_url" : "www.google.com"
+        "is_more_app" : false,
+        "developer_id" : "Pocket+IPTV",
+        "more_app_url" : "https://www.google.com"
       },
 
       "Share_App":
@@ -282,29 +282,29 @@
       "Official_Website":
       {
         "is_override" : false,
-        "is_official_website" : true,
+        "is_official_website" : false,
         "is_system_browser": false,
-        "official_website": "http://www.google.com"
+        "official_website": "https://www.google.com/"
       },
 
       "Live_Support":
       {
         "is_override" : false,
-        "is_live_support" : true,
+        "is_live_support" : false,
         "fb_messenger_id": "822625707789265",
         "is_system_browser": false,
-        "live_support_url": "http://www.google.com"
+        "live_support_url": "https://www.google.com/"
       },
 
       "Feedback_Support":
       {
         "is_override" : false,
-        "is_feedback" : true,
+        "is_feedback" : false,
 
         "cc_email_id": "",
-        "email_id": "pockettv.care@gmail.com",
-        "email_message": "Hi,\n\n\nYour Feedback Pocket TV Rocks! I would like to give you some feedback: ",
-        "email_subject": "Feedback on Pocket TV",
+        "email_id": "pocketiptv.care@gmail.com",
+        "email_message": "Hi,\n\n\nYour Feedback Pocket IPTV Rocks! I would like to give you some feedback: ",
+        "email_subject": "Feedback on Pocket IPTV",
 
         "feedback_title": "Send Feedback",
         "feedback_message": "If you have any kind of query, Then mail us.\nWe will resolve it."
@@ -316,7 +316,7 @@
         "is_channel_report" : true,
 
         "cc_email_id": "",
-        "email_id": "pockettv.care@gmail.com",
+        "email_id": "pocketiptv.care@gmail.com",
 
         "channel_report_title": "Channel Report"
       },
@@ -327,13 +327,13 @@
         "is_error_report" : true,
 
         "cc_email_id": "",
-        "email_id": "pockettv.care@gmail.com"
+        "email_id": "pocketiptv@gmail.com"
       },
 
       "Social_Support":
       {
         "is_override" : false,
-        "is_social" : true,
+        "is_social" : false,
         "social_title" : "Social",
         "social_message" : "Like and share post in social media.",
         "facebook_page_url": "fb://page/822625707789265",
