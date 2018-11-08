@@ -163,7 +163,7 @@
         "is_inapp_other_player_support":true,
 
         "is_cast_support":true,
-        "is_inapp_cast_support":false,
+        "is_inapp_cast_support":true,
 
         "is_remove_ads_support":true,
 
