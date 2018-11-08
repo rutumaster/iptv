@@ -259,7 +259,7 @@
         "is_override" : false,
         "is_rate_app" : true,
         "package_id" : "com.android.chrome",
-        "rate_app_url" : "www.google.com",
+        "rate_app_url" : "http://www.google.com",
         "rate_message" : "Please Rate us and promote us."
       },
 
