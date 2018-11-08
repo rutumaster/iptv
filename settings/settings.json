@@ -214,7 +214,7 @@
         "remove_ads_title": "Remove Ads Support",
 
         "inapp_remove_ads_sku" : "com.pocketiptv.removeads",
-        "inapp_remove_ads_message": "If you want to remove ads permanently then \"PAYMENT\".\n\nIf you want to make this session ADS FREE, Then \"RATE US\" or \"SHARE APP\"",
+        "inapp_remove_ads_message": "If you want to remove ads permanently then \"PAYMENT\".",
 
         "remove_ads_banner_url": "https://ads-blocker.com/wp-content/uploads/2015/02/ads-blocker-logo.png",
 
