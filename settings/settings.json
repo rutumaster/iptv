@@ -209,6 +209,28 @@
         "installing_message":"App Install"
       },
 
+      "Barcode_Support":
+      {
+        "is_override" : false,
+        "barcode_title": "Barcode Reader",
+
+        "barcode_package_name": "com.google.zxing.client.android",
+        "barcode_class_name": "com.google.zxing.client.android.SCAN",
+
+        "barcode_banner_url": "https://i.ytimg.com/vi/otkz5Cwdw38/maxresdefault.jpg",
+
+        "initial_barcode_message1": "Do you need Barcode support then follow below steps :\n\n(1). Press \"SETUP\" button.\n(2). If It will ask for permission please allow.\n(3). It will open download dialog and please wait till download completion.\n(4). After you can see \"INSTALL\" button, press \"INSTALL\" button.\n(5). After It will popup for installation screen and then \"INSTALL\" it.\n(6). After installation complete press \"DONE\" button.\n(7). Come back to Pocket IPTV and you will see your plugin activated.\n(9). If you can't setup then : <a href='https://github.com/rutumaster/Pocket-TV/raw/Final-Apps/COMMON/APKS/ChromeCast.apk'>DOWNLOAD HERE</a>\n\n",
+        "initial_barcode_message": "Do you need Barcode support then press \"LINK\" button and install chromecast app from playstore.",
+        "success_barcode_message": "Start Scanning.",
+
+        "download_url": "https://github.com/rutumaster/Pocket-TV/raw/Final-Apps/COMMON/APKS/ChromeCast.apk",
+        "website_url" : "",
+        "is_system_browser":true,
+        "filename": "RUTU_BARCODE.apk",
+        "downloading_message":"App Downloading",
+        "installing_message":"App Install"
+      },
+      
       "Remove_Ads_Support":
       {
         "is_override" : false,
